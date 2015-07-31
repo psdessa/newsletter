@@ -1,3 +1,6 @@
+a, a:link, a:visited { color:#000; border-bottom:1px dashed; text-decoration: none; }
+a:hover { font-weight: bold; }
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -7,25 +10,26 @@ body {
     color: #222;
 }
 
-#corpo {
-    width: 650px;
-    display: table;
-    margin: 0 auto; 
-}
+#corpo { width: 650px; display: table; margin: 0 auto; }
 
-.bloco {
-    margin: 0 10px;
-}
+.bloco { margin: 15px 10px; }
+.bloco p { font-size: 11px; }
 
-h1 {
-    border-bottom: 2px solid;
-    padding: 10px 0;
-    font-family: Georgia;
-    text-transform: uppercase;
+h1 { border-bottom: 2px solid; padding: 10px 0; font-family: Georgia; text-transform: uppercase; }
+    
+h2 { font-family: Georgia; font-size: 15px; }    
+    
+blockquote { 
+    margin: 0;margin: auto 0px;
+    font-size: 25px;
+    font-family: Gergia; 
+}    
+quote { text-align: center; }
+cite { 
+    margin-left: 10px;
+    font-size: 13px;
+    text-transform: none;
+    font-style: normal; 
 }
     
-h2 {
-    font-family: Georgia;
-    text-transform: uppercase;    
-    font-size: 15px;
-}    
+#view { float: right; font-size: 10px; letter-spacing: -0.5px; }  
